@@ -1,4 +1,3 @@
-// import _ from 'lodash';
  
 let stringLength = 0;
 let newNode;
@@ -9,8 +8,6 @@ let prevNode;
 let counter;
 let atIndex;
 
-
-// localStorage.clear()
 class LinkedList {
 
     constructor(head = null) {
@@ -189,25 +186,16 @@ class NodeObject {
 }
 
 let node1 = new NodeObject(1)
-
 let list = new LinkedList(node1)
+
 console.log("Head", list.getHead())
-
-
 console.log("Append Node", list.append(3))
-
 console.log("Prepend Node", list.prepend(4))
-
-
-
 console.log("Append Node", list.append(5))
-
 console.log("Insert At", list.insertAt(8, 2))
 console.log("Insert At", list.insertAt(9, 3))
 console.log("Remove", list.removeAt(3))
-
 console.log("Head", list.getHead())
-
 console.log("Pop", list.pop())
 console.log("Tail", list.getTail())
 console.log("At Index", list.at(2))
