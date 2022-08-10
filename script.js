@@ -165,7 +165,6 @@ class LinkedList {
         while (index > indexCount) {
             prevNode = finalNode
             finalNode = finalNode.next
-            console.log(prevNode)
             indexCount++
         }
         
