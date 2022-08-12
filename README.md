@@ -2,6 +2,8 @@ Linked Lists!
 
 A linear collection of nodes that point to the next node via a pointer. Each node holds an element of data or a pointer to the next node in the list.  
 
+I applied prettier to clean up the JS. 
+
 [ NODE(head) ] -> [ NODE ] -> [ NODE(tail) ] -> null
 
 1. Appending a node
